@@ -1,17 +1,17 @@
 nav {
-<<<<<<< HEAD
-
-=======
->>>>>>> b5a250ec9c55d8aa28525e60254885ef71462fbc
     position: relative;
-  background: #000;
+  // background: #fff;
   .container {
     padding: 4em 2em ;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    .bar{
+      color: black;
+    }
     img {
       max-width: 120px;
+      fill: #fff;
     }
     ul {
       align-items: center;
@@ -30,9 +30,11 @@ nav {
         font-weight: 300;
         position: relative;
 
+      
+
         svg {
           font-size: 1.7em;
-          fill: #ffffffa1;
+          fill: #fff;
         }
 
         &:hover {
@@ -154,9 +156,7 @@ nav {
     visibility: visible;
 }
     }
-<<<<<<< HEAD
-  }
-=======
+
   }
 
->>>>>>> b5a250ec9c55d8aa28525e60254885ef71462fbc
+

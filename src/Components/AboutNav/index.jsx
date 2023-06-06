@@ -1,68 +1,27 @@
 import React from 'react'
-import { useEffect } from 'react'
 import {Link} from 'react-router-dom'
-import { useRef } from 'react'
-
-
-
-
-
-import logo from "../../Assets/Icons/logo.png"
-
+import logo from "../../Assets/Icons/logo_black.png"
 import {BiSearch} from 'react-icons/bi'
 import {SlBag} from 'react-icons/sl'
 import {BiChevronDown} from 'react-icons/bi'
-import {RiArrowDropRightFill} from 'react-icons/ri'
 
+import Footer from '../Footer/index'
 import './style.scss'
-import slidebar_1 from '../../Assets/Image/slidebar_1.png'
-import slidebar_2 from '../../Assets/Image/slidebar_2.png'
-const Hero = () => {
 
-  const hero = useRef()
-
-  const changeSlide = () => {
-    setInterval(()=>{
-        hero.current.classList.toggle('changeImg')
-    },10000)
-  }
-
-  useEffect(()=>{
-    changeSlide()
-  },[])
-
-
-
-  const menuIcon = useRef(".hamburger");
-  const sideNav = useRef(".sidenav");
-  const MenuClicked = () => {
-   
-  
-
-   
-      menuIcon.current.classList.toggle("x");
-      sideNav.current.classList.toggle("active");
-    };
-
-
-
-
+const AboutNav = () => {
   return (
-    <div ref={hero} className="hero">
-     
-      <nav>
+    <div className='container'>
+         <nav>
       <div className="container">
         <img src={logo} alt="" />
         <ul>
 
             <li>
-              Home
+              <Link to='/'>Home</Link>
             <BiChevronDown/>
             <div className="sub-link">
                     <div className="subsubLink">
-                    <li>
-                      <Link to='/HomePage'>Home Fullscreen</Link>
-                      </li>
+                    <li>Home Fullscreen</li>
                     <li>Home Parallax</li>
                     </div>
                 </div>
@@ -80,15 +39,15 @@ const Hero = () => {
                     <li>Accessories</li>
                     <li>
                         Variants
-                        <RiArrowDropRightFill/>
+                      
                         </li>
                     <li>
                         Pagination
-                        <RiArrowDropRightFill/>
+                      
                         </li>
                         <li>
                         Cart Icon
-                        <RiArrowDropRightFill/>
+                        
                         </li>
                     </div>
                 </div>
@@ -129,7 +88,7 @@ const Hero = () => {
                       <Link to='/About'>About</Link>
                     </li>
                     <li>
-                    <Link to='/Contact'>Contact</Link>
+                      <Link to='/Contact'>Contact</Link>
                     </li>
                     <li>Cart</li>
                     <li>Checkout</li>
@@ -140,46 +99,24 @@ const Hero = () => {
             <li>Buy Now</li>
             <BiSearch/>
             <SlBag/>
-            <div ref={menuIcon} onClick={MenuClicked} className="hamburger">
+            {/* <div ref={menuIcon} onClick={MenuClicked} className="hamburger">
             <span className="bar"></span>
             <span className="bar"></span>
             <span className="bar"></span>
-          </div>
+          </div> */}
         </ul>
-        <div ref={sideNav} className="sidenav">
+        {/* <div ref={sideNav} className="sidenav">
             <li>Contact</li>
             <li>Products</li>
             <li> Category </li>
             <li>About</li>
-        </div>
+        </div> */}
        </div>
       </nav>
-            
-        <div className="hero-txt-first">
-          <h1>Fall & Winter <br /> Coat Collection</h1> 
-        
-          
-          
-          <p>
-            The lastest collection from the British brands. <br /> Pre-order now
-            and get your order in December
-          </p>
-          <div className="monochrome">
-                  <h2>MonoChrome <br /> Collection</h2>
-          </div>
-          <button id="bg-dark">Show More</button>
-          <div className="btn">
-            <button>Shop Now</button>
-          </div>
-        </div>
-        
-        
-        
+      <img src={about} alt="" />
       
-
-
     </div>
-  );
+  )
 }
 
-export default Hero
+export default AboutNav
