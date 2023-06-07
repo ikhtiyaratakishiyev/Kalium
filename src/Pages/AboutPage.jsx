@@ -1,25 +1,32 @@
 import React from 'react'
 import about from '../Assets/Image/about.jpg'
-// import AboutNav from '../Components/AboutNav'
+import {Helmet} from 'react-helmet'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
-import './style.scss'
+
+
+
+
 const AboutPage = () => {
   return (
     
 <div>
-  {/* <AboutNav/> */}
-  <Nav/>
-  <style>
-  {`
-    nav{
-      logo{
-        color:black
-      }
-    }
-  `}
-  </style>
+  <Helmet>
+      <style>
+        {`
+      
+        .black{
+          visibility:visible;
+        }
+        
+        `}
+      </style>
+  </Helmet>
+ 
+
   <div className="container">
+   
+  <Nav/>
     <img src={about} alt="" />
   <div className='context'>
     <div className="left">

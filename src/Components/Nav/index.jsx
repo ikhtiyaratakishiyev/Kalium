@@ -1,15 +1,11 @@
-
-
 import React from 'react'
-import { useEffect } from 'react'
+import { useEffect,useRef } from 'react'
 import {Link} from 'react-router-dom'
-import { useRef } from 'react'
 
+import logo_white from '../../Assets/Icons/logo_white.png'
 
+import logo_black from '../../Assets/Icons/logo_black.png'
 
-
-
-import logo from "../../Assets/Icons/logo_black.png"
 
 import {BiSearch} from 'react-icons/bi'
 import {SlBag} from 'react-icons/sl'
@@ -17,6 +13,7 @@ import {BiChevronDown} from 'react-icons/bi'
 import {RiArrowDropRightFill} from 'react-icons/ri'
 
 import './style.scss'
+
 
 const Nav = () => {
 
@@ -47,7 +44,11 @@ return (
    
     <nav>
     <div className="container">
-      <img src={logo} alt="" />
+      <div className="logo">
+      <img className='white' src={logo_white} alt="" />
+      <img className='black' src={logo_black} alt="" />
+      </div>
+    
       <ul>
 
           <li>
@@ -66,7 +67,10 @@ return (
 
           
           <li>
-            Shop
+          
+            <Link to='/shop'>Shop </Link>            
+            
+           
             <BiChevronDown/>
             <div className="sub-link">
                   <div className="subsubLink">
@@ -151,23 +155,7 @@ return (
      </div>
     </nav>
           
-      {/* <div className="hero-txt-first">
-        <h1>Fall & Winter <br /> Coat Collection</h1> 
-      
-        
-        
-        <p>
-          The lastest collection from the British brands. <br /> Pre-order now
-          and get your order in December
-        </p>
-        <div className="monochrome">
-                <h2>MonoChrome <br /> Collection</h2>
-        </div>
-        <button id="bg-dark">Show More</button>
-        <div className="btn">
-          <button>Shop Now</button>
-        </div>
-      </div> */}
+    
       
       
       
