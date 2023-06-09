@@ -14,9 +14,15 @@ import FourColumnsPage from '../Pages/FourColumnsPage'
 import SidebarRightPage from '../Pages/SidebarRightPage'
 import SidebarLeftPage from '../Pages/SidebarLeftPage'
 import CatalogePage from '../Pages/CatalogePage'
-
+import EndlessRevealPage from '../Pages/EndlessRevealPage'
+import NormalPage from '../Pages/NormalPage'
+import ShowMorePage from '../Pages/ShowMorePage'
+import CartIconPage from '../Pages/CartIconPage'
+import BagIconPage from '../Pages/BagIconPage'
+import BasketIconPage from '../Pages/BasketIconPage'
 export const routes = createBrowserRouter([
     {
+
         path:"/",
         element: <HomePage/>,
       },
@@ -67,12 +73,36 @@ export const routes = createBrowserRouter([
             element: <SidebarLeftPage />,
           },
           {
-            path:"/sidebarrigth",
+            path:"/sidebarright",
             element: <SidebarRightPage />,
           },
           {
             path:"/cataloge",
             element: <CatalogePage />,
+          },
+          {
+            path:"/endless",
+            element: <EndlessRevealPage />,
+          },
+          {
+            path:"/normal",
+            element: <NormalPage />,
+          },
+          {
+            path:"/showmore",
+            element: <ShowMorePage />,
+          },
+          {
+            path:"/carticon",
+            element: <CartIconPage />,
+          },
+          {
+            path:"/bagicon",
+            element: <BagIconPage />,
+          },
+          {
+            path:"/basketicon",
+            element: <BasketIconPage />,
           },
     
 ])

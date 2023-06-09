@@ -5,8 +5,9 @@ const SidebarRightPage = () => {
   return (
     <div>
         <Nav/>
-        <Footer/>
         <h1>SidebarRightPage</h1>
+        <Footer/>
+       
     </div>
   )
 }

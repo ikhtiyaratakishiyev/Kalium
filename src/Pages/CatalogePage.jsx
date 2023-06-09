@@ -5,8 +5,9 @@ const CatalogePage = () => {
   return (
     <div>
         <Nav/>
-        <Footer/>
         <h1>CatalogePage</h1>
+        <Footer/>
+        
     </div>
   )
 }

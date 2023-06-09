@@ -5,8 +5,9 @@ const TwoColumnsPage = () => {
   return (
     <div>
         <Nav/>
-        <Footer/>
         <h1>TwoColumnsPage</h1>
+        <Footer/>
+       
     </div>
   )
 }

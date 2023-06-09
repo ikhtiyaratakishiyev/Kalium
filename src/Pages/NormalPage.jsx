@@ -1,15 +1,16 @@
 import React from 'react'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
-const SidebarLeftPage = () => {
+
+const NormalPage = () => {
   return (
     <div>
         <Nav/>
-        <h1>SidebarLeftPage</h1>
-        <Footer/>
-        
+    <h1>NormalPage</h1>
+    <Footer/>
     </div>
+    
   )
 }
 
-export default SidebarLeftPage
+export default NormalPage

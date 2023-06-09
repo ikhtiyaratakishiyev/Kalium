@@ -68,29 +68,27 @@ nav {
               &:hover {
                 border-bottom: 1px solid gray;
                 .sub-link-right{
+                  visibility: visible;
+                  opacity: 1;
                   .subsubLink-right{
                     visibility: visible;
-                    background: red;
+                    opacity: 1;
                   }
+                  
+                
                   
                  }
               }
             }
             .sub-link-right{
-              // visibility: hidden;
-              // opacity: 0;
+              visibility: hidden;
+              opacity: 0;
               position: absolute;
               font-size: 0.6em;
               top: 100%;
               padding-top: 2em;
               padding-left: 15em;
             
-                li{
-                  &:hover{
-                   
-                  }
-                  
-              }
            
             
               .subsubLink-right{

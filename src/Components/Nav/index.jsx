@@ -92,22 +92,22 @@ return (
                       <div className="sub-link-right">
                   <div className="subsubLink-right">
                   <li>
-                  <Link to='/women'>2 Columns</Link>
+                  <Link to='/twocolumns'>2 Columns</Link>
                   </li>
                   <li>
-                    <Link to='/men'>3 Columns</Link>
+                    <Link to='/threecolumns'>3 Columns</Link>
                      </li>
                   <li>
-                    <Link to='/shoes'>4 Columns</Link>
+                    <Link to='/fourcolumns'>4 Columns</Link>
                   </li>
                   <li>
-                  <Link to='/accessories'>Sidebar left</Link>
+                  <Link to='/sidebarleft'>Sidebar left</Link>
                   </li>
                   <li>
-                  <Link to='/accessories'>Sidebar right</Link>
+                  <Link to='/sidebarright'>Sidebar right</Link>
                   </li>
                   <li>
-                  <Link to='/accessories'>Cataloge Mode (No Price)</Link>
+                  <Link to='/cataloge'>Cataloge Mode (No Price)</Link>
                   </li>
                 
               
@@ -117,10 +117,42 @@ return (
                   <li>
                       Pagination
                       <RiArrowDropRightFill/>
+                      <div className="sub-link-right">
+                  <div className="subsubLink-right">
+                  <li>
+                  <Link to='/endless'>Endless-Reveal</Link>
+                  </li>
+                  <li>
+                    <Link to='/normal'>Normal</Link>
+                     </li>
+                  <li>
+                    <Link to='/showmore'>Show More</Link>
+                  </li>
+                 
+                
+              
+                  </div>
+                      </div>
                       </li>
                       <li>
                       Cart Icon
                       <RiArrowDropRightFill/>
+                      <div className="sub-link-right">
+                  <div className="subsubLink-right">
+                  <li>
+                  <Link to='/carticon'>Cart Icon</Link>
+                  </li>
+                  <li>
+                    <Link to='/bagicon'>Bag Icon</Link>
+                     </li>
+                  <li>
+                    <Link to='/basketicon'>Basket Icon</Link>
+                  </li>
+                 
+                
+              
+                  </div>
+                      </div>
                       </li>
                   </div>
               </div>

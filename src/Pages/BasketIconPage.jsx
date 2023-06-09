@@ -1,15 +1,14 @@
 import React from 'react'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
-const SidebarLeftPage = () => {
+const BasketIconPage = () => {
   return (
     <div>
         <Nav/>
-        <h1>SidebarLeftPage</h1>
+        <h1>BasketIconPage</h1>
         <Footer/>
-        
     </div>
   )
 }
 
-export default SidebarLeftPage
+export default BasketIconPage

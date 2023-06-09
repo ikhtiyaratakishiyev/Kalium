@@ -1,15 +1,14 @@
 import React from 'react'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
-const SidebarLeftPage = () => {
+const EndlessRevealPage = () => {
   return (
     <div>
-        <Nav/>
-        <h1>SidebarLeftPage</h1>
+         <Nav/>
+        <h1>EndlessRevealPage</h1>
         <Footer/>
-        
-    </div>
+        </div>
   )
 }
 
-export default SidebarLeftPage
+export default EndlessRevealPage
