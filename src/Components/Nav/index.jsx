@@ -74,13 +74,45 @@ return (
             <BiChevronDown/>
             <div className="sub-link">
                   <div className="subsubLink">
-                  <li>Women</li>
-                  <li>Men </li>
-                  <li>Shoes</li>
-                  <li>Accessories</li>
                   <li>
+                  <Link to='/women'>Women</Link>
+                  </li>
+                  <li>
+                    <Link to='/men'>Men</Link>
+                     </li>
+                  <li>
+                    <Link to='/shoes'>Shoes</Link>
+                  </li>
+                  <li>
+                  <Link to='/accessories'>Accessories</Link>
+                  </li>
+                  <li className='variants'>
                       Variants
                       <RiArrowDropRightFill/>
+                      <div className="sub-link-right">
+                  <div className="subsubLink-right">
+                  <li>
+                  <Link to='/women'>2 Columns</Link>
+                  </li>
+                  <li>
+                    <Link to='/men'>3 Columns</Link>
+                     </li>
+                  <li>
+                    <Link to='/shoes'>4 Columns</Link>
+                  </li>
+                  <li>
+                  <Link to='/accessories'>Sidebar left</Link>
+                  </li>
+                  <li>
+                  <Link to='/accessories'>Sidebar right</Link>
+                  </li>
+                  <li>
+                  <Link to='/accessories'>Cataloge Mode (No Price)</Link>
+                  </li>
+                
+              
+                  </div>
+                      </div>
                       </li>
                   <li>
                       Pagination

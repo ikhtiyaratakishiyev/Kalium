@@ -32,9 +32,6 @@ nav {
         transition: 0.2s;
         font-weight: 300;
         position: relative;
-
-      
-
         svg {
           font-size: 1.7em;
           fill: #000;
@@ -46,11 +43,11 @@ nav {
             visibility: visible;
             opacity: 1;
           }
+         
         }
         .sub-link {
           visibility: hidden;
           opacity: 0;
-
           position: absolute;
           font-size: 0.6em;
           top: 100%;
@@ -59,7 +56,7 @@ nav {
           .subsubLink {
             border: 1px solid gray;
             background: #fff;
-            width: 13em;
+            width: 25em;
             margin-top: 1em;
             display: flex;
             flex-direction: column;
@@ -70,10 +67,57 @@ nav {
               transition: 0.3s;
               &:hover {
                 border-bottom: 1px solid gray;
+                .sub-link-right{
+                  .subsubLink-right{
+                    visibility: visible;
+                    background: red;
+                  }
+                  
+                 }
+              }
+            }
+            .sub-link-right{
+              // visibility: hidden;
+              // opacity: 0;
+              position: absolute;
+              font-size: 0.6em;
+              top: 100%;
+              padding-top: 2em;
+              padding-left: 15em;
+            
+                li{
+                  &:hover{
+                   
+                  }
+                  
+              }
+           
+            
+              .subsubLink-right{
+                border: 1px solid gray;
+                background: #fff;
+                width: 30em;
+                margin-top: -4em;
+                margin-left: 7em;
+                display: flex;
+                flex-direction: column;
+                gap: 0.8em;
+                padding: 2em;
+                li {
+                  color: #000;
+                  transition: 0.3s;
+                  &:hover {
+                    border-bottom: 1px solid gray;
+                  
+                  }
+                }
               }
             }
           }
         }
+       
+       
+
       }
       svg {
         fill: #000;
