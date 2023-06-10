@@ -3,6 +3,7 @@ import { useEffect,useRef } from 'react'
 import {Link} from 'react-router-dom'
 
 import logo_white from '../../Assets/Icons/logo_white.png'
+import logo_black from '../../Assets/Icons/logo_black.png'
 
 
 
@@ -15,7 +16,7 @@ import {RiArrowDropRightFill} from 'react-icons/ri'
 import './style.scss'
 
 
-const Nav = () => {
+const Nav = ({mode}) => {
 
 
 
@@ -45,7 +46,14 @@ return (
     <nav>
     <div className="container">
       <div className="logo">
-      <img className='white' src={logo_white} alt="" />
+        {
+          mode==="light"
+          ?
+       <img  src={logo_white} alt="" />
+       :
+       <img  src={logo_black} alt="" />
+        }
+      
       
       </div>
     

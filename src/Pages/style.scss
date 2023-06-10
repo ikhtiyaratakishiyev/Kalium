@@ -154,7 +154,40 @@ nav {
 }
     }
   }
+.products-c{
+  padding: 6em 1em;
+  >h2,p{
+    text-align: center;
+  }
+  >h2{
+    font-size: 1.6em;
+    font-weight: 300;
+    letter-spacing: .06em;
+  }
+  p{
+    font-size: 1.4em;
+    font-weight: 200;
+    letter-spacing: .04em;
+    color: #666;
+    margin-bottom: 3em;
+  }
+  .container{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 4em;
 
+    .card{
+      width: 30em;
+      height: 46em;
+    
+      cursor: pointer;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
 
 // nav {
 

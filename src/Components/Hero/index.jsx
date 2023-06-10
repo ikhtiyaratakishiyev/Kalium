@@ -38,7 +38,7 @@ const Hero = () => {
 
   return (
     <div ref={hero} className="hero">
-     <Nav/>
+     <Nav mode={"light"}/>
      
             
         <div className="hero-txt-first">

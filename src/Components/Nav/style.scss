@@ -33,9 +33,12 @@ nav {
         transition: 0.2s;
         font-weight: 300;
         position: relative;
+        a{
+          color: #fff;
+        }
         svg {
           font-size: 1.7em;
-          fill: #000;
+          fill: #fff;
         }
 
         &:hover {
@@ -66,6 +69,9 @@ nav {
             li {
               color: #000;
               transition: 0.3s;
+              a{
+                color: #000;
+              }
               &:hover {
                 border-bottom: 1px solid gray;
                 .sub-link-right{
@@ -105,6 +111,9 @@ nav {
                 li {
                   color: #000;
                   transition: 0.3s;
+                  a{
+                    color: #000;
+                  }
                   &:hover {
                     border-bottom: 1px solid gray;
                   

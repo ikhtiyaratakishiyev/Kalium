@@ -15,8 +15,20 @@ const AboutPage = () => {
       <style>
         {`
       
-        .black{
-          visibility:visible;
+        nav>.container>ul>li{
+          color:#000;
+        }
+        nav>.container>ul>svg{
+          fill:#000;
+        }
+        nav>.container>ul>li>svg{
+          fill:#000;
+        }
+        nav>.container>ul>li>a{
+          color:#000;
+        }
+        nav>.container>ul>.hamburger>.bar{
+          background:#000;
         }
         
         `}
@@ -26,7 +38,7 @@ const AboutPage = () => {
 
   <div className="container">
    
-  <Nav/>
+  <Nav mode={"dark"}/>
     <img src={about} alt="" />
   <div className='context'>
     <div className="left">
