@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 import logo_white from '../../Assets/Icons/logo_white.png'
 
-import logo_black from '../../Assets/Icons/logo_black.png'
+
 
 
 import {BiSearch} from 'react-icons/bi'
@@ -46,7 +46,7 @@ return (
     <div className="container">
       <div className="logo">
       <img className='white' src={logo_white} alt="" />
-      <img className='black' src={logo_black} alt="" />
+      
       </div>
     
       <ul>
