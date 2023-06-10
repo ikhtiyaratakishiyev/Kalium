@@ -176,14 +176,36 @@ nav {
     align-items: start;
     justify-content: center;
     gap: 4em;
-
+    flex-wrap: wrap;
     .card{
       width: 30em;
       height: 46em;
-    
+      position: relative;
       cursor: pointer;
+
       img{
         width: 100%;
+        height: 37em;
+      }
+      .imgHover{
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        
+      }
+      &:hover{
+        .imgHover{
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+      .showImg{
+        visibility: visible;
+        opacity: 1;
       }
     }
   }

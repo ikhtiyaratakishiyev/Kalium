@@ -34,7 +34,7 @@ export const products = [
     {
         id:2,
         name: "Broken T shirts",
-        price: 9,
+        price: 25,
         category: "jackets, Men",
         img1: p2_1,
         img2: p2_2,
@@ -42,7 +42,7 @@ export const products = [
     {
         id:3,
         name: "Broken T shirts",
-        price: 9,
+        price: 12,
         category: "jackets, women",
         img1: p3_1,
         img2: p3_2,
@@ -50,7 +50,7 @@ export const products = [
     {
         id:4,
         name: "Broken T shirts",
-        price: 9,
+        price: 18,
         category: "Men, T-shirts",
         img1: p4_1,
         img2: p4_2,
@@ -58,7 +58,7 @@ export const products = [
     {
         id:5,
         name: "Broken T shirts",
-        price: 9,
+        price: 28,
         category: "Men, T-shirts",
         img1: p5_1,
         img2: p5_2,
@@ -66,7 +66,7 @@ export const products = [
     {
         id:6,
         name: "Broken T shirts",
-        price: 9,
+        price: 19,
         category: "jackets, Men",
         img1: p6_1,
         img2: p6_2,
@@ -74,7 +74,7 @@ export const products = [
     {
         id:7,
         name: "Broken T shirts",
-        price: 9,
+        price: 18,
         category: "jackets, women",
         img1: p7_1,
         img2: p7_2,
