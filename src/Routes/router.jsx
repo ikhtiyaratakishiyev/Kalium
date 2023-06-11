@@ -20,6 +20,7 @@ import ShowMorePage from '../Pages/ShowMorePage'
 import CartIconPage from '../Pages/CartIconPage'
 import BagIconPage from '../Pages/BagIconPage'
 import BasketIconPage from '../Pages/BasketIconPage'
+import OneProductPage from '../Pages/OneProductPage'
 export const routes = createBrowserRouter([
     {
 
@@ -103,6 +104,10 @@ export const routes = createBrowserRouter([
           {
             path:"/basketicon",
             element: <BasketIconPage />,
+          },
+          {
+            path:"/oneProduct",
+            element: <OneProductPage />,
           },
     
 ])

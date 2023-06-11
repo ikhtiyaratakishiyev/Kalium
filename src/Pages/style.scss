@@ -104,13 +104,22 @@ nav {
                 transform: translateY(-.8rem) rotate(-45deg);
             }
         }
-  @media screen and (max-width:880px){
+  @media screen and (max-width:930px){
     li{
         display: none;
     }
     .hamburger{
         display: flex;
     }
+}
+@media screen and (max-width:990px){
+  li{
+      font-size: 1.6em;
+  }
+  ul{
+    gap: 2.5em;
+  }
+
 }
 @media screen and (max-width:500px){
     svg{
@@ -223,7 +232,13 @@ gap: 1em;
       }
     }
   }
+  .men-container{
+    width: 100%;
+    height: 70em;
+    background: rgb(2,3,129) 0%,;
+  }
 }
+
 
 // nav {
 

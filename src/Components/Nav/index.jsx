@@ -5,9 +5,6 @@ import {Link} from 'react-router-dom'
 import logo_white from '../../Assets/Icons/logo_white.png'
 import logo_black from '../../Assets/Icons/logo_black.png'
 
-
-
-
 import {BiSearch} from 'react-icons/bi'
 import {SlBag} from 'react-icons/sl'
 import {BiChevronDown} from 'react-icons/bi'
@@ -46,6 +43,7 @@ return (
     <nav>
     <div className="container">
       <div className="logo">
+        <Link to='/'>
         {
           mode==="light"
           ?
@@ -54,6 +52,8 @@ return (
        <img  src={logo_black} alt="" />
         }
       
+        </Link>
+     
       
       </div>
     

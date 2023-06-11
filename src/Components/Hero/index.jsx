@@ -10,14 +10,14 @@ const Hero = () => {
 
   const hero = useRef()
 
-  const changeSlide = () => {
-    setInterval(()=>{
+  useEffect(()=>{
+      const slider = setInterval(()=>{
         hero.current.classList.toggle('changeImg')
     },10000)
-  }
 
-  useEffect(()=>{
-    changeSlide()
+    return ()=>{
+      clearInterval(slider)
+    }
   },[])
 
 
@@ -43,17 +43,15 @@ const Hero = () => {
             
         <div className="hero-txt-first">
           <h1>Fall & Winter <br /> Coat Collection</h1> 
-        
-          
-          
           <p>
             The lastest collection from the British brands. <br /> Pre-order now
             and get your order in December
           </p>
+          <button id="bg-dark">Show More</button>
           <div className="monochrome">
                   <h2>MonoChrome <br /> Collection</h2>
           </div>
-          <button id="bg-dark">Show More</button>
+          
           <div className="btn">
             <button>Shop Now</button>
           </div>

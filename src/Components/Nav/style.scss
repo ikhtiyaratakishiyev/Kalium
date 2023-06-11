@@ -1,8 +1,6 @@
 nav {
     position: relative;
-.black{
-  visibility: hidden;
-}
+
   .container {
    
     padding: 4em 2em ;
@@ -21,6 +19,13 @@ nav {
       display: flex;
       align-items: center;
       gap: 3.5em;
+      @media screen and (max-width:990px){
+        ul{
+            gap: 2em;
+            
+        }
+       
+    }
       li {
       
         display: flex;
@@ -33,6 +38,7 @@ nav {
         transition: 0.2s;
         font-weight: 300;
         position: relative;
+      
         a{
           color: #fff;
         }

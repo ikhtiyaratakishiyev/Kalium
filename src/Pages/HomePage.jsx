@@ -3,8 +3,19 @@ import Footer from "../Components/Footer/index";
 
 import Hero from "../Components/Hero";
 import { products } from "../Data/products";
+import {useNavigate} from 'react-router-dom'
 import "../../src/Components/Style/recet.scss";
+
 const HomePage = () => {
+
+  const navigate= useNavigate()
+  
+  const clickHandle = async(item)=>{
+    
+    const x = localStorage.setItem('productId',item.id)
+    navigate('/oneProduct')
+  }
+
   return (
     <div className="wrapper">
       <Hero />
@@ -14,7 +25,7 @@ const HomePage = () => {
         <div className="container">
           {products.map((item) => {
             return (
-              <div className="card">
+              <div onClick={()=>clickHandle(item)} key={item.id} className="card">
                 <img src={item.img1} alt="" />
                 <img  className="imgHover " src={item.img2} alt="" />
                 <div className="txt">

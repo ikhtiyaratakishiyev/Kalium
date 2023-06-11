@@ -5,7 +5,7 @@ import Footer from '../Components/Footer'
 
 const Men = () => {
   return (
-    <div>
+    <div className='men-container'>
         <Nav/>
         <h1>Mens Collection</h1>
         <Footer/>
