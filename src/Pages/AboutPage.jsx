@@ -4,7 +4,7 @@ import {Helmet} from 'react-helmet'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
 
-
+import './style.scss'
 
 
 const AboutPage = () => {
@@ -39,7 +39,10 @@ const AboutPage = () => {
   <div className="container">
    
   <Nav mode={"dark"}/>
-    <img src={about} alt="" />
+  <div className="img">
+  <img src={about} alt="" />
+  </div>
+   
   <div className='context'>
     <div className="left">
     <p>

@@ -77,9 +77,8 @@ return (
           <li>
           
             <Link to='/shop'>Shop </Link>            
-            
-           
             <BiChevronDown/>
+
             <div className="sub-link">
                   <div className="subsubLink">
                   <li>
@@ -175,8 +174,61 @@ return (
                   <li>External Product</li>
                   <li>Grouped Product</li>
                   <li>Catalog Mode (No Price) </li>
-                  <li>Image Layout</li>
-                  <li>Image Size</li>
+
+                  <li>
+                    Image Layout
+                    <RiArrowDropRightFill/>
+                    <div className="sub-link-right">
+                  <div className="subsubLink-right">
+                  <li>
+                  <Link to='/carticon'>Default</Link>
+                  </li>
+                  <li>
+                    <Link to='/bagicon'>Plain</Link>
+                     </li>
+                  <li>
+                    <Link to='/basketicon'>Plain Sticky</Link>
+                  </li>
+                  <li>
+                  <Link to='/carticon'>Image left</Link>
+                  </li>
+                  <li>
+                    <Link to='/bagicon'>Image right</Link>
+                     </li>
+                 
+                
+              
+                  </div>
+                      </div>
+                    </li>
+                 
+                  <li>
+                    Image Size
+                    <RiArrowDropRightFill/>
+                    <div className="sub-link-right">
+                  <div className="subsubLink-right">
+
+                  <li>
+                  <Link to='/carticon'>Small</Link>
+                  </li>
+                  <li>
+                    <Link to='/bagicon'>Medium</Link>
+                     </li>
+                  <li>
+                    <Link to='/basketicon'>Large</Link>
+                  </li>
+                  <li>
+                    <Link to='/basketicon'>Extra Large</Link>
+                  </li>
+                 
+                 
+                 
+                
+              
+                  </div>
+                      </div>
+                    </li>
+                 
                   </div>
               </div>
 

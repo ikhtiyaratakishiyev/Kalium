@@ -22,6 +22,12 @@ import p7_2 from '../Assets/Products/p7/img2.jpg'
 import p8_1 from '../Assets/Products/p8/img1.jpg'
 import p8_2 from '../Assets/Products/p8/img2.jpg'
 
+import gymwear from '../Assets/Cards/c_1/gymwear.jpg'
+import kids from '../Assets/Cards/c_1/kids.jpg'
+
+import men from '../Assets/Cards/c_1/men.jpg'
+import women from '../Assets/Cards/c_1/women.jpg'
+
 export const products = [
     {
         id:1,
@@ -87,4 +93,35 @@ export const products = [
         img1: p8_1,
         img2: p8_2,
     },
+]
+
+export const cards =[
+    {
+        id:1,
+        date: "OCTOBER 27, 2016",
+        description1: '"Want My Look" ',
+        description2: 'gymwear editorial',
+        img: gymwear,    
+    },
+    {
+        id:2,
+        date: "OCTOBER 3, 2016",
+        description1: "Kids Winter Collection",
+        img: kids,    
+    },
+    {
+        id:3,
+        date: "September 12, 2016",
+        description1: 'New York Fashion Show ',
+        description2: 'Looks and More',
+        img: men,    
+    },
+    {
+        id:4,
+        date: "OCTOBER 22, 2016",
+        description1: '"Summer Is Not Over ',
+        description2: 'Yet" Show',
+        img: women,    
+    },
+
 ]
