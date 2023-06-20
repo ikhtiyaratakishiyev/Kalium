@@ -65,10 +65,13 @@ return (
           <BiChevronDown/>
           <div className="sub-link">
                   <div className="subsubLink">
-                  <li>
-                    <Link to='/HomePage'>Home Fullscreen</Link>
+                     <li>
+                    <Link to='/homeFullScreen'>Home Fullscreen</Link>
                     </li>
-                  <li>Home Parallax</li>
+                  <li>
+                    
+                    <Link to='/homeParallax'>Home Parallax</Link>
+                    </li>
                   </div>
               </div>
           </li>

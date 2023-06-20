@@ -21,6 +21,9 @@ import CartIconPage from '../Pages/CartIconPage'
 import BagIconPage from '../Pages/BagIconPage'
 import BasketIconPage from '../Pages/BasketIconPage'
 import OneProductPage from '../Pages/OneProductPage'
+import HomeFullScreenPage from '../Pages/HomeFullScreenPage'
+import HomeParallaxPage from '../Pages/HomeParallax'
+
 export const routes = createBrowserRouter([
     {
 
@@ -108,6 +111,14 @@ export const routes = createBrowserRouter([
           {
             path:"/oneProduct",
             element: <OneProductPage />,
+          },
+          {
+            path:"/homeFullScreen",
+            element: <HomeFullScreenPage />,
+          },
+          {
+            path:"/homeParallax",
+            element: <HomeParallaxPage />,
           },
     
 ])
