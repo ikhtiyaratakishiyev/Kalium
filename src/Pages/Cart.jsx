@@ -1,14 +1,11 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
 import Nav from '../Components/Nav'
-
-const ShoppingPage = () => {
-
+import { Helmet } from 'react-helmet'
+const Cart = () => {
   return (
-
     <div>
-      <Nav/>
-      <Helmet>
+        <Nav/>
+        <Helmet>
       <style>
         {`
       
@@ -31,9 +28,9 @@ const ShoppingPage = () => {
         `}
       </style>
   </Helmet>
+        <h1>Cart</h1>
     </div>
-
   )
 }
 
-export default ShoppingPage
+export default Cart

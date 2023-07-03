@@ -10,6 +10,7 @@ const Women = () => {
         
         <div className="women-hero">
         <Nav/>
+     
             <img className='image' src={women} alt="" />
             <h1>LADIES</h1>
         </div>

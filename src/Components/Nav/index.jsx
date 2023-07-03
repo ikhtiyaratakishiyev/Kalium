@@ -172,11 +172,18 @@ return (
               <BiChevronDown/>
               <div className="sub-link">
                   <div className="subsubLink">
-                  <li>Simple product</li>
-                  <li>Variable Product</li>
-                  <li>External Product</li>
-                  <li>Grouped Product</li>
-                  <li>Catalog Mode (No Price) </li>
+                  <li>
+                  <Link to='/SimpleProduct'> Simple product</Link>
+                   
+                    </li>
+                  <li>
+                  <Link to='/VariableProduct'>  Variable Product</Link>
+                   
+                    </li>
+                  <li>
+                  <Link to='/ExternalProduct'>  External Product</Link>
+                    </li>
+              
 
                   <li>
                     Image Layout
@@ -241,8 +248,12 @@ return (
             <BiChevronDown/>
             <div className="sub-link">
                   <div className="subsubLink">
-                  <li>Sidebar Right</li>
-                  <li>Sidebar Left</li>
+                  <li>
+                  <Link to='/SidebarRight'>Sidebar Right</Link>
+                   </li>
+                  <li>
+                  <Link to='/SidebarLeft'>Sidebar Left</Link>
+                 </li>
                
                   </div>
               </div>
@@ -258,8 +269,13 @@ return (
                   <li>
                   <Link to='/Contact'>Contact</Link>
                   </li>
-                  <li>Cart</li>
-                  <li>Checkout</li>
+                  <li>
+                  <Link to='/Cart'>Cart</Link>
+                    </li>
+                  <li>
+                  <Link to='/Checkout'>Checkout</Link>
+                    
+                    </li>
                   <li>Login/Register</li>
                   </div>
               </div>

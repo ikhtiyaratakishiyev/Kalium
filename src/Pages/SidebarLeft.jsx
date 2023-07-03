@@ -1,14 +1,12 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
 import Nav from '../Components/Nav'
-
-const ShoppingPage = () => {
-
+import Footer from '../Components/Footer'
+import { Helmet } from 'react-helmet'
+const SidebarLeftPage = () => {
   return (
-
     <div>
-      <Nav/>
-      <Helmet>
+        <Nav/>
+        <Helmet>
       <style>
         {`
       
@@ -31,9 +29,11 @@ const ShoppingPage = () => {
         `}
       </style>
   </Helmet>
+        <h1>SidebarLeftPage</h1>
+        <Footer/>
+        
     </div>
-
   )
 }
 
-export default ShoppingPage
+export default SidebarLeftPage
