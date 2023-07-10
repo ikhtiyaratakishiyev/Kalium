@@ -26,7 +26,10 @@ import gymwear from '../Assets/Cards/c_1/gymwear.jpg'
 import kids from '../Assets/Cards/c_1/kids.jpg'
 
 import men from '../Assets/Cards/c_1/men.jpg'
-import women from '../Assets/Cards/c_1/women.jpg'
+import women1 from '../Assets/Cards/c_1/women1.jpg'
+
+import WF1_1 from '../Assets/Image/WomenFashion/WF1/img1.jpg'
+import WF2_2 from '../Assets/Image/WomenFashion/WF1/img2.jpg' 
 
 export const products = [
     {
@@ -121,7 +124,18 @@ export const cards =[
         date: "OCTOBER 22, 2016",
         description1: '"Summer Is Not Over ',
         description2: 'Yet" Show',
-        img: women,    
+        img: women1,    
     },
 
+]
+
+export const women =[
+    {
+        id:1,
+        name: "Long Camouflage",
+        price: 47,
+        category: " Jackets",
+        img1: WF1_1,
+        img2: WF2_2,    
+    },
 ]

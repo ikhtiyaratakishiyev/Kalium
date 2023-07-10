@@ -1,7 +1,8 @@
 import React from 'react'
 import Nav from '../Components/Nav'
-import Footer from '../Components/Footer'
-import women from '../Assets/Image/women.png'
+// import Footer from '../Components/Footer'
+import women1 from '../Assets/Image/women1.png'
+import {women} from '../Data/products/'
 import './style.scss'
 const Women = () => {
 
@@ -11,10 +12,27 @@ const Women = () => {
         <div className="women-hero">
         <Nav/>
      
-            <img className='image' src={women} alt="" />
-            <h1>LADIES</h1>
+            <img className='image' src={women1} alt="" />
+            
+            <section className='Second-products-c'>
+            <div className="container">
+          {women.map((item) => {
+            return (
+              <div  key={item.id} className="card">
+                <img src={item.img1} alt="" />
+                <img  className="imgHover " src={item.img2} alt="" />
+                <div className="txt">
+                  <h2>{item.name}</h2>
+                  <h2>{item.price}</h2>
+                </div>
+                <button>{item.category}</button>
+              </div>
+            );
+          })}
         </div>
-        <Footer/>
+            </section>
+        </div>
+       
     </div>
   )
 }

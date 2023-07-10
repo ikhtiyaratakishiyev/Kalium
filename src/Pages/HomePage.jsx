@@ -45,6 +45,7 @@ const HomePage = () => {
           })}
         </div>
       </section>
+      
       <section className="Second-products-c">
          <h2>Latest News</h2>
         <p>News, press releases and multimedia</p>
