@@ -2,7 +2,8 @@ import React from 'react'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
 import women1 from '../Assets/Image/women1.png'
-import {women} from '../Data/products/'
+import {women} from '../Data/products'
+
 import './style.scss'
 const Women = () => {
 
