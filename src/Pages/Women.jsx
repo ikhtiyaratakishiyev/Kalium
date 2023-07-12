@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from '../Components/Nav'
-// import Footer from '../Components/Footer'
+import Footer from '../Components/Footer'
 import women1 from '../Assets/Image/women1.png'
 import {women} from '../Data/products/'
 import './style.scss'
@@ -14,7 +14,9 @@ const Women = () => {
      
             <img className='image' src={women1} alt="" />
             
-            <section className='Second-products-c'>
+            <section className='products-c'>
+            <h2>Shopping for women</h2>
+        <p>Shop jeans, shirts, jackets and more.</p>
             <div className="container">
           {women.map((item) => {
             return (
@@ -31,6 +33,9 @@ const Women = () => {
           })}
         </div>
             </section>
+            <div className="border"></div>
+            <Footer/>
+           
         </div>
        
     </div>

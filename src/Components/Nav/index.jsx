@@ -90,12 +90,7 @@ return (
                   <li>
                     <Link to='/men'>Men</Link>
                      </li>
-                  <li>
-                    <Link to='/shoes'>Shoes</Link>
-                  </li>
-                  <li>
-                  <Link to='/accessories'>Accessories</Link>
-                  </li>
+                 
                   <li className='variants'>
                       Variants
                       <RiArrowDropRightFill/>
@@ -107,63 +102,13 @@ return (
                   <li>
                     <Link to='/threecolumns'>3 Columns</Link>
                      </li>
-                  <li>
-                    <Link to='/fourcolumns'>4 Columns</Link>
-                  </li>
-                  <li>
-                  <Link to='/sidebarleft'>Sidebar left</Link>
-                  </li>
-                  <li>
-                  <Link to='/sidebarright'>Sidebar right</Link>
-                  </li>
-                  <li>
-                  <Link to='/cataloge'>Cataloge Mode (No Price)</Link>
-                  </li>
-                
-              
-                  </div>
-                      </div>
-                      </li>
-                  <li>
-                      Pagination
-                      <RiArrowDropRightFill/>
-                      <div className="sub-link-right">
-                  <div className="subsubLink-right">
-                  <li>
-                  <Link to='/endless'>Endless-Reveal</Link>
-                  </li>
-                  <li>
-                    <Link to='/normal'>Normal</Link>
-                     </li>
-                  <li>
-                    <Link to='/showmore'>Show More</Link>
-                  </li>
                  
                 
               
                   </div>
                       </div>
                       </li>
-                      <li>
-                      Cart Icon
-                      <RiArrowDropRightFill/>
-                      <div className="sub-link-right">
-                  <div className="subsubLink-right">
-                  <li>
-                  <Link to='/carticon'>Cart Icon</Link>
-                  </li>
-                  <li>
-                    <Link to='/bagicon'>Bag Icon</Link>
-                     </li>
-                  <li>
-                    <Link to='/basketicon'>Basket Icon</Link>
-                  </li>
-                 
-                
-              
-                  </div>
-                      </div>
-                      </li>
+                      
                   </div>
               </div>
             </li>
@@ -176,15 +121,9 @@ return (
                   <Link to='/SimpleProduct'> Simple product</Link>
                    
                     </li>
-                  <li>
-                  <Link to='/VariableProduct'>  Variable Product</Link>
-                   
-                    </li>
-                  <li>
-                  <Link to='/ExternalProduct'>  External Product</Link>
-                    </li>
+                
               
-
+{/* 
                   <li>
                     Image Layout
                     <RiArrowDropRightFill/>
@@ -210,7 +149,7 @@ return (
               
                   </div>
                       </div>
-                    </li>
+                    </li> */}
                  
                   <li>
                     Image Size
@@ -224,13 +163,7 @@ return (
                   <li>
                     <Link to='/bagicon'>Medium</Link>
                      </li>
-                  <li>
-                    <Link to='/basketicon'>Large</Link>
-                  </li>
-                  <li>
-                    <Link to='/basketicon'>Extra Large</Link>
-                  </li>
-                 
+                        
                  
                  
                 
@@ -243,21 +176,7 @@ return (
               </div>
 
           </li>
-          <li>
-            News
-            <BiChevronDown/>
-            <div className="sub-link">
-                  <div className="subsubLink">
-                  <li>
-                  <Link to='/SidebarRight'>Sidebar Right</Link>
-                   </li>
-                  <li>
-                  <Link to='/SidebarLeft'>Sidebar Left</Link>
-                 </li>
-               
-                  </div>
-              </div>
-            </li>
+         
           <li>
             Pages
             <BiChevronDown/>
@@ -266,16 +185,7 @@ return (
                   <li>
                     <Link to='/About'>About</Link>
                   </li>
-                  <li>
-                  <Link to='/Contact'>Contact</Link>
-                  </li>
-                  <li>
-                  <Link to='/Cart'>Cart</Link>
-                    </li>
-                  <li>
-                  <Link to='/Checkout'>Checkout</Link>
-                    
-                    </li>
+                 
                   <li>Login/Register</li>
                   </div>
               </div>
