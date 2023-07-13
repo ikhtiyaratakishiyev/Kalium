@@ -68,10 +68,10 @@ return (
                      <li>
                     <Link to='/homeFullScreen'>Home Fullscreen</Link>
                     </li>
-                  <li>
+                  {/* <li>
                     
                     <Link to='/homeParallax'>Home Parallax</Link>
-                    </li>
+                    </li> */}
                   </div>
               </div>
           </li>

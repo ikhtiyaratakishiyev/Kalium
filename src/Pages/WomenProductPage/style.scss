@@ -1,0 +1,72 @@
+.oneProductPage{
+    display: flex;
+    justify-content: center;
+   
+    .imagesColumn{
+        display: flex;
+        flex-direction: column;
+       flex: 1;
+    }
+    .product-txt-wrapper{
+        position: relative;
+        padding-top: 10em;
+         flex: 1;
+        
+        display: flex;
+        align-items: start;
+        .product-txt{
+            position: sticky;
+            top: 10em;
+            padding: 1em 1em 1em 12em;
+            display: flex;
+          flex-direction: column;
+          max-width: 80em;
+        }
+        h2{
+            font-size: 3.6em;
+            font-weight: 400;
+        }
+        p{
+            color: gray;
+            font-size: 1.5em;
+            letter-spacing: .12em;
+        }
+        ul{
+            padding: 2em 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+        li{
+            font-size: 1.8em;
+            padding: .8em 0;
+            gap: 1em;
+            color: gray;
+            border-bottom: 1px solid black;
+        }
+
+    }
+    .btns{
+        padding: 1.6em 0;
+        display: flex;
+        gap: 1em;
+        input{
+            width: 7em;
+            padding: .8em;
+            border: 1px solid gray;
+            font-size: 1.6em;
+        }
+        button{
+            font-size: 1.6em;
+            border: 1px solid gray;
+            background: none;
+            padding: .8em;
+            flex: 1;
+            &:hover{
+                background: #000;
+                color: #fff;
+            }
+        }
+
+    }
+}

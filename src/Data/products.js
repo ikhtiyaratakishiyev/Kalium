@@ -52,6 +52,30 @@ import WF7_2 from '../Assets/Image/WomenFashion/WF7/img2.jpg'
 import WF8_1 from '../Assets/Image/WomenFashion/WF8/img.jpg'
 import WF8_2 from '../Assets/Image/WomenFashion/WF8/img2.jpg'
 
+import MF1_1 from '../Assets/Image/MenFashion/MF1/img.jpg'
+import MF1_2 from '../Assets/Image/MenFashion/MF1/img2.jpg'
+
+import MF2_1 from '../Assets/Image/MenFashion/MF2/img.jpg'
+import MF2_2 from '../Assets/Image/MenFashion/MF2/img2.jpg'
+
+import MF3_1 from '../Assets/Image/MenFashion/MF3/img.jpg'
+import MF3_2 from '../Assets/Image/MenFashion/MF3/img2.jpg'
+
+import MF4_1 from '../Assets/Image/MenFashion/MF4/img.jpg'
+import MF4_2 from '../Assets/Image/MenFashion/MF4/img2.jpg'
+
+import MF5_1 from '../Assets/Image/MenFashion/MF5/img.jpg'
+import MF5_2 from '../Assets/Image/MenFashion/MF5/img2.jpg'
+
+import MF6_1 from '../Assets/Image/MenFashion/MF6/img.jpg'
+import MF6_2 from '../Assets/Image/MenFashion/MF6/img2.jpg'
+
+import MF7_1 from '../Assets/Image/MenFashion/MF1/img.jpg'
+import MF7_2 from '../Assets/Image/MenFashion/MF1/img2.jpg'
+
+import MF8_1 from '../Assets/Image/MenFashion/MF8/img.jpg'
+import MF8_2 from '../Assets/Image/MenFashion/MF8/img2.jpg'
+
 export const products = [
     {
         id:1,
@@ -215,4 +239,71 @@ export const women =[
         img1: WF8_1,
         img2: WF8_2,    
     },
+]
+
+export const mens = [
+    {
+        id:1,
+        name: "Long Camouflage",
+        price: 47,
+        category: " Jackets",
+        img1: MF1_1,
+        img2: MF1_2,    
+    },
+    {
+        id:2,
+        name: "Long Camouflage",
+        price: 47,
+        category: " Jackets",
+        img1: MF2_1,
+        img2: MF2_2,    
+    },
+    {
+        id:3,
+        name: "Long Camouflage",
+        price: 47,
+        category: " Jackets",
+        img1: MF3_1,
+        img2: MF3_2,    
+    },
+    {
+        id:4,
+        name: "Long Camouflage",
+        price: 47,
+        category: " Jackets",
+        img1: MF4_1,
+        img2: MF4_2,    
+    },
+    {
+        id:5,
+        name: "Long Camouflage",
+        price: 47,
+        category: " Jackets",
+        img1: MF5_1,
+        img2: MF5_2,    
+    },
+    {
+        id:6,
+        name: "Long Camouflage",
+        price: 47,
+        category: " Jackets",
+        img1: MF6_1,
+        img2: MF6_2,    
+    },
+    {
+        id:7,
+        name: "Long Camouflage",
+        price: 47,
+        category: " Jackets",
+        img1: MF7_1,
+        img2: MF7_2,    
+    },
+    {
+        id:8,
+        name: "Long Camouflage",
+        price: 47,
+        category: " Jackets",
+        img1: MF8_1,
+        img2: MF8_2,    
+    },  
 ]

@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
 import { Helmet } from 'react-helmet'
-import men from '../Assets/Image/men.png'
+// import men from '../Assets/Image/men.png'
 import women from '../Assets/Image/slidebar_2.png'
 
 import './style.scss'
@@ -16,7 +16,7 @@ const HomeParallax = () => {
       <div className="parallax-man-img">
 
       <div className="img-container">
-        <img className='img' src={men} alt="" />
+        {/* <img className='img' src={men} alt="" /> */}
       </div>
 
       <div className="txt-container2">
@@ -57,9 +57,9 @@ const HomeParallax = () => {
         
        </div>
 
-       {/* <div className="second">
+       <div className="second">
         <img src={women} alt="" />
-       </div> */}
+       </div>
     </div>
   
   )

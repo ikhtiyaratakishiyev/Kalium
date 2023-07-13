@@ -5,18 +5,18 @@ import AboutPage from "../Pages/AboutPage"
 
 import Men from '../Pages/Men'
 import Women from '../Pages/Women'
-
-
+import WomenProductPage from '../Pages/WomenProductPage'
+import ShopPage from '../Pages/Shop'
 import TwoColumnsPage from '../Pages/TwoColumnsPage'
 import ThreeColumnsPage from '../Pages/ThreeColumnsPage'
-
+import MenProductPage from '../Pages/MenProductPage'
 import OneProductPage from '../Pages/OneProductPage'
 import HomeFullScreenPage from '../Pages/HomeFullScreenPage'
 import HomeParallaxPage from '../Pages/HomeParallax'
 import SimpleProduct from '../Pages/SimpleProduct'
 
 
-import Checkout from '../Pages/Checkout'
+
 export const routes = createBrowserRouter([
     {
 
@@ -26,6 +26,10 @@ export const routes = createBrowserRouter([
       {
         path:"/about",
         element: <AboutPage />,
+      },
+      {
+        path:"/Shop",
+        element: <ShopPage />,
       },
       {
             path:"/men",
@@ -52,6 +56,14 @@ export const routes = createBrowserRouter([
             element: <HomeFullScreenPage />,
           },
           {
+            path:"/menProduct",
+            element: <MenProductPage />,
+          },
+          {
+            path:"/womenProduct",
+            element: <WomenProductPage />,
+          },
+          {
             path:"/homeParallax",
             element: <HomeParallaxPage />,
           },
@@ -59,10 +71,7 @@ export const routes = createBrowserRouter([
             path:"/simpleProduct",
             element: <SimpleProduct />,
           },
-          {
-            path:"/checkout",
-            element: <Checkout />,
-          },,
+         
           
 ])
  

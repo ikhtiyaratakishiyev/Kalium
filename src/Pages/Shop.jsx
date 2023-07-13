@@ -1,12 +1,11 @@
 import React from 'react'
 import Nav from '../Components/Nav'
-import Footer from '../Components/Footer'
 import { Helmet } from 'react-helmet'
-const Shoes = () => {
+const Shop = () => {
   return (
     <div>
-        <Nav/>
-        <Helmet>
+      <Nav/>
+       <Helmet>
       <style>
         {`
       
@@ -28,11 +27,10 @@ const Shoes = () => {
         
         `}
       </style>
-  </Helmet>
-        <h1>Shoes Collections</h1>
-        <Footer/>
+         </Helmet>
+        <h1>Shop</h1>
     </div>
   )
 }
 
-export default Shoes
+export default Shop
