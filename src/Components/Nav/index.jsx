@@ -91,7 +91,7 @@ return (
                     <Link to='/men'>Men</Link>
                      </li>
                  
-                  <li className='variants'>
+                  {/* <li className='variants'>
                       Variants
                       <RiArrowDropRightFill/>
                       <div className="sub-link-right">
@@ -107,7 +107,7 @@ return (
               
                   </div>
                       </div>
-                      </li>
+                      </li> */}
                       
                   </div>
               </div>
