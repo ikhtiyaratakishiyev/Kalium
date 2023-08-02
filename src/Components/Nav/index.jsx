@@ -12,30 +12,17 @@ import {RiArrowDropRightFill} from 'react-icons/ri'
 
 import './style.scss'
 
-
 const Nav = ({mode}) => {
 
-
-
 const hero = useRef()
-
-
-
-
 
 const menuIcon = useRef(".hamburger");
 const sideNav = useRef(".sidenav");
 const MenuClicked = () => {
  
-
-
- 
     menuIcon.current.classList.toggle("x");
     sideNav.current.classList.toggle("active");
   };
-
-
-
 
 return (
   <div >
@@ -91,23 +78,7 @@ return (
                     <Link to='/men'>Men</Link>
                      </li>
                  
-                  {/* <li className='variants'>
-                      Variants
-                      <RiArrowDropRightFill/>
-                      <div className="sub-link-right">
-                  <div className="subsubLink-right">
-                  <li>
-                  <Link to='/twocolumns'>2 Columns</Link>
-                  </li>
-                  <li>
-                    <Link to='/threecolumns'>3 Columns</Link>
-                     </li>
                  
-                
-              
-                  </div>
-                      </div>
-                      </li> */}
                       
                   </div>
               </div>
@@ -122,34 +93,7 @@ return (
                    
                     </li>
                 
-              
-{/* 
-                  <li>
-                    Image Layout
-                    <RiArrowDropRightFill/>
-                    <div className="sub-link-right">
-                  <div className="subsubLink-right">
-                  <li>
-                  <Link to='/carticon'>Default</Link>
-                  </li>
-                  <li>
-                    <Link to='/bagicon'>Plain</Link>
-                     </li>
-                  <li>
-                    <Link to='/basketicon'>Plain Sticky</Link>
-                  </li>
-                  <li>
-                  <Link to='/carticon'>Image left</Link>
-                  </li>
-                  <li>
-                    <Link to='/bagicon'>Image right</Link>
-                     </li>
-                 
-                
-              
-                  </div>
-                      </div>
-                    </li> */}
+
                  
                   <li>
                     Image Size
